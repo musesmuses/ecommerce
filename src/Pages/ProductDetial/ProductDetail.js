@@ -12,7 +12,6 @@ const ProductDetail = () => {
   const { id } = useParams();
 
   const { loading, product } = useSelector((state) => state.productDetails);
-  const cart = useSelector((state) => state.Cart.cart);
 
   const dispatch = useDispatch();
   useEffect(() => {

@@ -11,8 +11,6 @@ const cartFromStorage = localStorage.getItem("cart")
   ? JSON.parse(localStorage.getItem("cart"))
   : [];
 
-console.log(cartFromStorage);
-
 const reducer = combineReducers({
   productList: productListReducer,
   productDetails: productDetailReducer,
