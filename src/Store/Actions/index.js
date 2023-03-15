@@ -1,11 +1,6 @@
 import { listProducts } from "./ProductListAction";
 import { detailProduct } from "./ProductDetailAction";
-import {
-  addToCart,
-  removeFromCart,
-  checkOut,
-  deleteItem,
-} from "./AddToCartAction";
+import { addToCart, removeFromCart, checkOut, deleteItem } from "./CartAction";
 
 export {
   listProducts,
